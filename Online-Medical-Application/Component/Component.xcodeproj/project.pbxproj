@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		5C67D14F2B03A5440097F128 /* Component.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C67D14E2B03A5440097F128 /* Component.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C67D1B72B03A7230097F128 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C67D1B62B03A7230097F128 /* Domain.framework */; };
+		5C67D1D42B03A9290097F128 /* TextfieldWithTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C67D1D32B03A9290097F128 /* TextfieldWithTitle.swift */; };
+		5C67D1E32B03B5280097F128 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C67D1E22B03B5280097F128 /* Color.swift */; };
+		5C67D1FB2B03B68D0097F128 /* CommonExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C67D1FA2B03B68D0097F128 /* CommonExtension.framework */; };
+		5C67D1FF2B03BDAF0097F128 /* ComponentAsset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C67D1FE2B03BDAF0097F128 /* ComponentAsset.xcassets */; };
+		5C67D20B2B03C20E0097F128 /* SubmitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C67D20A2B03C20E0097F128 /* SubmitButton.swift */; };
 		E91413565B2A70D3A526DF99 /* libPods-Component.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2358CAF6D3BB0F877B93F881 /* libPods-Component.a */; };
 /* End PBXBuildFile section */
 
@@ -18,6 +23,11 @@
 		5C67D14B2B03A5440097F128 /* Component.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Component.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C67D14E2B03A5440097F128 /* Component.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Component.h; sourceTree = "<group>"; };
 		5C67D1B62B03A7230097F128 /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C67D1D32B03A9290097F128 /* TextfieldWithTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextfieldWithTitle.swift; sourceTree = "<group>"; };
+		5C67D1E22B03B5280097F128 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		5C67D1FA2B03B68D0097F128 /* CommonExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CommonExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C67D1FE2B03BDAF0097F128 /* ComponentAsset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ComponentAsset.xcassets; sourceTree = "<group>"; };
+		5C67D20A2B03C20E0097F128 /* SubmitButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitButton.swift; sourceTree = "<group>"; };
 		F44ADA3599319C4A18AAF188 /* Pods-Component.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Component.debug.xcconfig"; path = "Target Support Files/Pods-Component/Pods-Component.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -28,6 +38,7 @@
 			files = (
 				5C67D1B72B03A7230097F128 /* Domain.framework in Frameworks */,
 				E91413565B2A70D3A526DF99 /* libPods-Component.a in Frameworks */,
+				5C67D1FB2B03B68D0097F128 /* CommonExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,14 +76,43 @@
 		5C67D14D2B03A5440097F128 /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				5C67D1E12B03B5110097F128 /* Basics */,
+				5C67D2092B03C1EA0097F128 /* Button */,
+				5C67D1D22B03A9100097F128 /* Textfield */,
 				5C67D14E2B03A5440097F128 /* Component.h */,
+				5C67D1FE2B03BDAF0097F128 /* ComponentAsset.xcassets */,
 			);
 			path = Component;
+			sourceTree = "<group>";
+		};
+		5C67D1D22B03A9100097F128 /* Textfield */ = {
+			isa = PBXGroup;
+			children = (
+				5C67D1D32B03A9290097F128 /* TextfieldWithTitle.swift */,
+			);
+			path = Textfield;
+			sourceTree = "<group>";
+		};
+		5C67D1E12B03B5110097F128 /* Basics */ = {
+			isa = PBXGroup;
+			children = (
+				5C67D1E22B03B5280097F128 /* Color.swift */,
+			);
+			path = Basics;
+			sourceTree = "<group>";
+		};
+		5C67D2092B03C1EA0097F128 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				5C67D20A2B03C20E0097F128 /* SubmitButton.swift */,
+			);
+			path = Button;
 			sourceTree = "<group>";
 		};
 		C5618EF5C3C300EE9B4DD8ED /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5C67D1FA2B03B68D0097F128 /* CommonExtension.framework */,
 				5C67D1B62B03A7230097F128 /* Domain.framework */,
 				2358CAF6D3BB0F877B93F881 /* libPods-Component.a */,
 			);
@@ -123,6 +163,7 @@
 				TargetAttributes = {
 					5C67D14A2B03A5440097F128 = {
 						CreatedOnToolsVersion = 15.0;
+						LastSwiftMigration = 1500;
 					};
 				};
 			};
@@ -149,6 +190,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C67D1FF2B03BDAF0097F128 /* ComponentAsset.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,6 +226,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C67D1D42B03A9290097F128 /* TextfieldWithTitle.swift in Sources */,
+				5C67D20B2B03C20E0097F128 /* SubmitButton.swift in Sources */,
+				5C67D1E32B03B5280097F128 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +364,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F44ADA3599319C4A18AAF188 /* Pods-Component.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -342,6 +388,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -351,6 +398,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0554CDF201999090B428965F /* Pods-Component.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;

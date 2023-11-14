@@ -30,3 +30,11 @@ end
 target 'Component' do
 	project 'Component/Component.project'
 end
+
+target 'CommonExtension' do
+	project 'CommonExtension/CommonExtension.project'
+end
+
+target 'Login' do
+	project 'Login/Login.project'
+end

@@ -11,13 +11,13 @@
 		5C67D1302B03A4740097F128 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C67D12F2B03A4740097F128 /* SceneDelegate.swift */; };
 		5C67D1322B03A4740097F128 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C67D1312B03A4740097F128 /* ViewController.swift */; };
 		5C67D1352B03A4740097F128 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C67D1332B03A4740097F128 /* Main.storyboard */; };
-		5C67D1372B03A4760097F128 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C67D1362B03A4760097F128 /* Assets.xcassets */; };
 		5C67D13A2B03A4760097F128 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C67D1382B03A4760097F128 /* LaunchScreen.storyboard */; };
 		5C67D1A62B03A6640097F128 /* Component.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C67D1A52B03A6640097F128 /* Component.framework */; };
 		5C67D1AA2B03A66C0097F128 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C67D1A92B03A66C0097F128 /* Domain.framework */; };
 		5C67D1AE2B03A6720097F128 /* Networking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C67D1AD2B03A6720097F128 /* Networking.framework */; };
 		5C67D1B12B03A6760097F128 /* Utility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C67D1B02B03A6760097F128 /* Utility.framework */; };
 		5C67D1B42B03A6790097F128 /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C67D1B32B03A6790097F128 /* Data.framework */; };
+		5C67D1DE2B03B37E0097F128 /* Login.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C67D1DD2B03B37E0097F128 /* Login.framework */; };
 		60A532F3015AE9F89C38CF49 /* Pods_Online_Medical_Application.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B101364148B70D9FA04EDFD6 /* Pods_Online_Medical_Application.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,7 +27,6 @@
 		5C67D12F2B03A4740097F128 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5C67D1312B03A4740097F128 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5C67D1342B03A4740097F128 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5C67D1362B03A4760097F128 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C67D1392B03A4760097F128 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C67D13B2B03A4760097F128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C67D1A52B03A6640097F128 /* Component.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Component.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -35,6 +34,7 @@
 		5C67D1AD2B03A6720097F128 /* Networking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Networking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C67D1B02B03A6760097F128 /* Utility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Utility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C67D1B32B03A6790097F128 /* Data.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Data.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C67D1DD2B03B37E0097F128 /* Login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Login.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9356843BDBF6E3943D440C8F /* Pods-Online-Medical-Application.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Online-Medical-Application.release.xcconfig"; path = "Target Support Files/Pods-Online-Medical-Application/Pods-Online-Medical-Application.release.xcconfig"; sourceTree = "<group>"; };
 		B101364148B70D9FA04EDFD6 /* Pods_Online_Medical_Application.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Online_Medical_Application.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA2E3D01FFEA8546BD945C27 /* Pods-Online-Medical-Application.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Online-Medical-Application.debug.xcconfig"; path = "Target Support Files/Pods-Online-Medical-Application/Pods-Online-Medical-Application.debug.xcconfig"; sourceTree = "<group>"; };
@@ -47,6 +47,7 @@
 			files = (
 				5C67D1B42B03A6790097F128 /* Data.framework in Frameworks */,
 				5C67D1AE2B03A6720097F128 /* Networking.framework in Frameworks */,
+				5C67D1DE2B03B37E0097F128 /* Login.framework in Frameworks */,
 				5C67D1AA2B03A66C0097F128 /* Domain.framework in Frameworks */,
 				5C67D1A62B03A6640097F128 /* Component.framework in Frameworks */,
 				5C67D1B12B03A6760097F128 /* Utility.framework in Frameworks */,
@@ -60,6 +61,7 @@
 		32A31346EAD3F2D8D812EEF0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5C67D1DD2B03B37E0097F128 /* Login.framework */,
 				5C67D1B32B03A6790097F128 /* Data.framework */,
 				5C67D1B02B03A6760097F128 /* Utility.framework */,
 				5C67D1AD2B03A6720097F128 /* Networking.framework */,
@@ -95,7 +97,6 @@
 				5C67D12F2B03A4740097F128 /* SceneDelegate.swift */,
 				5C67D1312B03A4740097F128 /* ViewController.swift */,
 				5C67D1332B03A4740097F128 /* Main.storyboard */,
-				5C67D1362B03A4760097F128 /* Assets.xcassets */,
 				5C67D1382B03A4760097F128 /* LaunchScreen.storyboard */,
 				5C67D13B2B03A4760097F128 /* Info.plist */,
 			);
@@ -171,7 +172,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C67D13A2B03A4760097F128 /* LaunchScreen.storyboard in Resources */,
-				5C67D1372B03A4760097F128 /* Assets.xcassets in Resources */,
 				5C67D1352B03A4740097F128 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
