@@ -1,5 +1,7 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+# platform :ios, '14.0'
+
+workspace 'Online-Medical-Application'
 
 target 'Online-Medical-Application' do
   # Comment the next line if you don't want to use dynamic frameworks
@@ -7,4 +9,24 @@ target 'Online-Medical-Application' do
 
   # Pods for Online-Medical-Application
 
+end
+
+target 'Utility' do
+	project 'Utility/Utility.project'
+end
+
+target 'Networking' do
+	project 'Networking/Networking.project'
+end
+
+target 'Data' do
+	project 'Data/Data.project'
+end
+
+target 'Domain' do
+	project 'Domain/Domain.project'
+end
+
+target 'Component' do
+	project 'Component/Component.project'
 end
