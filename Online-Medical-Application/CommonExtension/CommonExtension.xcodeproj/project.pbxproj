@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		418EA5552366A6A55A192D02 /* libPods-CommonExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F23E0F35E0FB8314DD7C0ED3 /* libPods-CommonExtension.a */; };
+		5C62B1532B04FB2200BD27A0 /* Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C62B1522B04FB2200BD27A0 /* Encodable.swift */; };
 		5C67D1F22B03B5FF0097F128 /* CommonExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C67D1F12B03B5FF0097F128 /* CommonExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C67D1F92B03B64F0097F128 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C67D1F82B03B64F0097F128 /* UIColor.swift */; };
 		5C67D2012B03BE6A0097F128 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C67D2002B03BE6A0097F128 /* UIImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C62B1522B04FB2200BD27A0 /* Encodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encodable.swift; sourceTree = "<group>"; };
 		5C67D1EE2B03B5FF0097F128 /* CommonExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C67D1F12B03B5FF0097F128 /* CommonExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonExtension.h; sourceTree = "<group>"; };
 		5C67D1F82B03B64F0097F128 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				5C67D1F12B03B5FF0097F128 /* CommonExtension.h */,
 				5C67D1F82B03B64F0097F128 /* UIColor.swift */,
 				5C67D2002B03BE6A0097F128 /* UIImage.swift */,
+				5C62B1522B04FB2200BD27A0 /* Encodable.swift */,
 			);
 			path = CommonExtension;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 			files = (
 				5C67D1F92B03B64F0097F128 /* UIColor.swift in Sources */,
 				5C67D2012B03BE6A0097F128 /* UIImage.swift in Sources */,
+				5C62B1532B04FB2200BD27A0 /* Encodable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

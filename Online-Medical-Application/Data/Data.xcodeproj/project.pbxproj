@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C62B1452B04F3B900BD27A0 /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C62B1442B04F3B900BD27A0 /* DIContainer.swift */; };
 		5C67D1772B03A5B60097F128 /* Data.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C67D1762B03A5B60097F128 /* Data.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		82224B28B3EC330B50518A26 /* libPods-Data.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D6F133E01F2A068FB7F6F6 /* libPods-Data.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C62B1442B04F3B900BD27A0 /* DIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
 		5C67D1732B03A5B60097F128 /* Data.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Data.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C67D1762B03A5B60097F128 /* Data.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
 		70D6F133E01F2A068FB7F6F6 /* libPods-Data.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Data.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				5C67D1762B03A5B60097F128 /* Data.h */,
+				5C62B1442B04F3B900BD27A0 /* DIContainer.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -119,6 +122,7 @@
 				TargetAttributes = {
 					5C67D1722B03A5B60097F128 = {
 						CreatedOnToolsVersion = 15.0;
+						LastSwiftMigration = 1500;
 					};
 				};
 			};
@@ -180,6 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C62B1452B04F3B900BD27A0 /* DIContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +320,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A79208BB49FFDAFF5091A0BF /* Pods-Data.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -338,6 +344,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -347,6 +354,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C1F907A34A9D5AD5D6FE619E /* Pods-Data.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;

@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		233AB69F04E2858BA4A66FFF /* libPods-Networking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DC9DBF091693DC983AD4BC0 /* libPods-Networking.a */; };
+		5C62B1382B04D42000BD27A0 /* NetworkingCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C62B1372B04D42000BD27A0 /* NetworkingCall.swift */; };
+		5C62B13F2B04D7C600BD27A0 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C62B13E2B04D7C600BD27A0 /* Configuration.swift */; };
+		5C62B1412B04D7FA00BD27A0 /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C62B1402B04D7FA00BD27A0 /* EndPoints.swift */; };
 		5C67D18B2B03A5C80097F128 /* Networking.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C67D18A2B03A5C80097F128 /* Networking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C67D1BB2B03A7370097F128 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C67D1BA2B03A7370097F128 /* Domain.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1E75BD7FAF8E8314550A6646 /* Pods-Networking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Networking.debug.xcconfig"; path = "Target Support Files/Pods-Networking/Pods-Networking.debug.xcconfig"; sourceTree = "<group>"; };
+		5C62B1372B04D42000BD27A0 /* NetworkingCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingCall.swift; sourceTree = "<group>"; };
+		5C62B13E2B04D7C600BD27A0 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		5C62B1402B04D7FA00BD27A0 /* EndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
 		5C67D1872B03A5C80097F128 /* Networking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Networking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C67D18A2B03A5C80097F128 /* Networking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Networking.h; sourceTree = "<group>"; };
 		5C67D1BA2B03A7370097F128 /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +50,15 @@
 			path = ../Pods;
 			sourceTree = "<group>";
 		};
+		5C62B13D2B04D7BA00BD27A0 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				5C62B1402B04D7FA00BD27A0 /* EndPoints.swift */,
+				5C62B13E2B04D7C600BD27A0 /* Configuration.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
 		5C67D17D2B03A5C80097F128 = {
 			isa = PBXGroup;
 			children = (
@@ -65,7 +80,9 @@
 		5C67D1892B03A5C80097F128 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				5C62B13D2B04D7BA00BD27A0 /* Config */,
 				5C67D18A2B03A5C80097F128 /* Networking.h */,
+				5C62B1372B04D42000BD27A0 /* NetworkingCall.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -123,6 +140,7 @@
 				TargetAttributes = {
 					5C67D1862B03A5C80097F128 = {
 						CreatedOnToolsVersion = 15.0;
+						LastSwiftMigration = 1500;
 					};
 				};
 			};
@@ -184,6 +202,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C62B13F2B04D7C600BD27A0 /* Configuration.swift in Sources */,
+				5C62B1412B04D7FA00BD27A0 /* EndPoints.swift in Sources */,
+				5C62B1382B04D42000BD27A0 /* NetworkingCall.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +340,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1E75BD7FAF8E8314550A6646 /* Pods-Networking.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -342,6 +364,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -351,6 +374,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CC350678A7F4FFF7CB406B56 /* Pods-Networking.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;

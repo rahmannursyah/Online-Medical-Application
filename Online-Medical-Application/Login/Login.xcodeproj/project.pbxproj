@@ -8,7 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		4234DC07AE471678E1D07308 /* libPods-Login.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF8A0D99AE3151E9C7BA381 /* libPods-Login.a */; };
-		5C67D1CC2B03A8A10097F128 /* Login.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C67D1CB2B03A8A10097F128 /* Login.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C62B13A2B04D5C500BD27A0 /* LoginVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C62B1392B04D5C500BD27A0 /* LoginVM.swift */; };
+		5C62B13C2B04D5D100BD27A0 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C62B13B2B04D5D100BD27A0 /* LoginRouter.swift */; };
+		5C62B1432B04DFE200BD27A0 /* LoginWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C62B1422B04DFE200BD27A0 /* LoginWorker.swift */; };
+		5C62B1472B04F47000BD27A0 /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C62B1462B04F47000BD27A0 /* Data.framework */; };
+		5C62B14B2B04F4BC00BD27A0 /* Networking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C62B14A2B04F4BC00BD27A0 /* Networking.framework */; };
 		5C67D1D62B03AE1D0097F128 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C67D1D52B03AE1D0097F128 /* LoginVC.swift */; };
 		5C67D1DA2B03B1DC0097F128 /* Component.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C67D1D92B03B1DC0097F128 /* Component.framework */; };
 		5C67D2032B03BF300097F128 /* CommonExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C67D2022B03BF300097F128 /* CommonExtension.framework */; };
@@ -17,8 +21,12 @@
 
 /* Begin PBXFileReference section */
 		0EF8A0D99AE3151E9C7BA381 /* libPods-Login.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Login.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C62B1392B04D5C500BD27A0 /* LoginVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVM.swift; sourceTree = "<group>"; };
+		5C62B13B2B04D5D100BD27A0 /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		5C62B1422B04DFE200BD27A0 /* LoginWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWorker.swift; sourceTree = "<group>"; };
+		5C62B1462B04F47000BD27A0 /* Data.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Data.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C62B14A2B04F4BC00BD27A0 /* Networking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Networking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C67D1C82B03A8A10097F128 /* Login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Login.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C67D1CB2B03A8A10097F128 /* Login.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Login.h; sourceTree = "<group>"; };
 		5C67D1D52B03AE1D0097F128 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginVC.swift; path = Login/LoginVC.swift; sourceTree = "<group>"; };
 		5C67D1D92B03B1DC0097F128 /* Component.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Component.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C67D2022B03BF300097F128 /* CommonExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CommonExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -34,7 +42,9 @@
 			files = (
 				5C67D1DA2B03B1DC0097F128 /* Component.framework in Frameworks */,
 				5C67D2072B03BF630097F128 /* Utility.framework in Frameworks */,
+				5C62B14B2B04F4BC00BD27A0 /* Networking.framework in Frameworks */,
 				4234DC07AE471678E1D07308 /* libPods-Login.a in Frameworks */,
+				5C62B1472B04F47000BD27A0 /* Data.framework in Frameworks */,
 				5C67D2032B03BF300097F128 /* CommonExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,8 +73,10 @@
 		5C67D1CA2B03A8A10097F128 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				5C67D1CB2B03A8A10097F128 /* Login.h */,
 				5C67D1D52B03AE1D0097F128 /* LoginVC.swift */,
+				5C62B1392B04D5C500BD27A0 /* LoginVM.swift */,
+				5C62B13B2B04D5D100BD27A0 /* LoginRouter.swift */,
+				5C62B1422B04DFE200BD27A0 /* LoginWorker.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -72,6 +84,8 @@
 		7ACD5013A84F318A46D1B69E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5C62B14A2B04F4BC00BD27A0 /* Networking.framework */,
+				5C62B1462B04F47000BD27A0 /* Data.framework */,
 				5C67D2062B03BF630097F128 /* Utility.framework */,
 				5C67D2022B03BF300097F128 /* CommonExtension.framework */,
 				5C67D1D92B03B1DC0097F128 /* Component.framework */,
@@ -97,7 +111,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C67D1CC2B03A8A10097F128 /* Login.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,7 +209,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C62B13A2B04D5C500BD27A0 /* LoginVM.swift in Sources */,
 				5C67D1D62B03AE1D0097F128 /* LoginVC.swift in Sources */,
+				5C62B13C2B04D5D100BD27A0 /* LoginRouter.swift in Sources */,
+				5C62B1432B04DFE200BD27A0 /* LoginWorker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

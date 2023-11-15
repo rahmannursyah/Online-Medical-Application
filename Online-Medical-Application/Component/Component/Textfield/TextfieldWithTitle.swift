@@ -22,7 +22,14 @@ public class TextfieldWithTitle: UIView {
 		let tf = UITextField()
 		tf.translatesAutoresizingMaskIntoConstraints = false
 		tf.borderStyle = .roundedRect
+		tf.layer.borderWidth = 0.25
+		tf.layer.borderColor = UIColor.white.cgColor
+		tf.layer.cornerRadius = 4
 		tf.textColor = Color.primaryBlueColor.instance()
+		tf.layer.shadowOpacity = 0.3
+		tf.layer.shadowRadius = 8.0
+		tf.layer.shadowOffset = CGSize(width: 0, height: 8)
+		tf.layer.shadowColor = UIColor.gray.cgColor
 		return tf
 	}()
 	
@@ -33,6 +40,14 @@ public class TextfieldWithTitle: UIView {
 		stackView.axis = .vertical
 		return stackView
 	}()
+	
+	public var text: String? {
+		get {
+			return textField.text
+		} set {
+			textField.text = newValue
+		}
+	}
 	
 	public convenience init(title: String, placeholder: String) {
 		self.init(frame: .null)
