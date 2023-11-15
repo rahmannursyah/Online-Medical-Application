@@ -2,10 +2,13 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:CommonExtension/CommonExtension.xcodeproj">
+      location = "group:Home/Home.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Login/Login.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CommonExtension/CommonExtension.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Utility/Utility.xcodeproj">

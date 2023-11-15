@@ -172,7 +172,9 @@ public class LoginVC: UIViewController {
 extension LoginVC: LoginDisplayLogic {
 	
 	func didSuccessLogin() {
-		print("success")
+		DispatchQueue.main.async { [weak self] in
+			self?.router?.routeToHomeScreen()
+		}
 	}
 	
 	func didFailedLogin(errorMsg: String) {

@@ -6,16 +6,18 @@
 //
 
 import Foundation
+import Home
 
 protocol LoginRouterLogic {
 	func routeToHomeScreen()
 }
 
 public class LoginRouter: LoginRouterLogic {
-	weak var viewController: LoginDisplayLogic?
+	weak var viewController: LoginVC?
 	
 	func routeToHomeScreen() {
-		// todo
+		let homeVC = HomeVC()
+		viewController?.present(homeVC, animated: true)
 	}
 	
 	

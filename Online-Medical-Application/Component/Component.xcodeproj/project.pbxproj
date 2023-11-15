@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5C62B1552B0507B200BD27A0 /* TextfieldTitleWithAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C62B1542B0507B200BD27A0 /* TextfieldTitleWithAttribute.swift */; };
 		5C62B1582B050DE800BD27A0 /* BasicAlertDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C62B1572B050DE800BD27A0 /* BasicAlertDialog.swift */; };
+		5C62B15B2B0512F900BD27A0 /* BasicCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C62B15A2B0512F900BD27A0 /* BasicCardView.swift */; };
 		5C67D14F2B03A5440097F128 /* Component.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C67D14E2B03A5440097F128 /* Component.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C67D1B72B03A7230097F128 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C67D1B62B03A7230097F128 /* Domain.framework */; };
 		5C67D1D42B03A9290097F128 /* TextfieldWithTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C67D1D32B03A9290097F128 /* TextfieldWithTitle.swift */; };
@@ -24,6 +25,7 @@
 		2358CAF6D3BB0F877B93F881 /* libPods-Component.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Component.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C62B1542B0507B200BD27A0 /* TextfieldTitleWithAttribute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextfieldTitleWithAttribute.swift; sourceTree = "<group>"; };
 		5C62B1572B050DE800BD27A0 /* BasicAlertDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAlertDialog.swift; sourceTree = "<group>"; };
+		5C62B15A2B0512F900BD27A0 /* BasicCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicCardView.swift; sourceTree = "<group>"; };
 		5C67D14B2B03A5440097F128 /* Component.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Component.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C67D14E2B03A5440097F128 /* Component.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Component.h; sourceTree = "<group>"; };
 		5C67D1B62B03A7230097F128 /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,6 +69,14 @@
 			path = Alert;
 			sourceTree = "<group>";
 		};
+		5C62B1592B0512EC00BD27A0 /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				5C62B15A2B0512F900BD27A0 /* BasicCardView.swift */,
+			);
+			path = CardView;
+			sourceTree = "<group>";
+		};
 		5C67D1412B03A5440097F128 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +98,7 @@
 		5C67D14D2B03A5440097F128 /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				5C62B1592B0512EC00BD27A0 /* CardView */,
 				5C62B1562B050DD900BD27A0 /* Alert */,
 				5C67D1E12B03B5110097F128 /* Basics */,
 				5C67D2092B03C1EA0097F128 /* Button */,
@@ -241,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C67D1D42B03A9290097F128 /* TextfieldWithTitle.swift in Sources */,
+				5C62B15B2B0512F900BD27A0 /* BasicCardView.swift in Sources */,
 				5C62B1552B0507B200BD27A0 /* TextfieldTitleWithAttribute.swift in Sources */,
 				5C67D20B2B03C20E0097F128 /* SubmitButton.swift in Sources */,
 				5C67D1E32B03B5280097F128 /* Color.swift in Sources */,

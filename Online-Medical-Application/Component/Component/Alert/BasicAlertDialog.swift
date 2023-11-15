@@ -76,7 +76,7 @@ public class BasicAlertDialog: UIView {
 			confirmationBtn.leadingAnchor.constraint(equalTo: containerView.leadingAnchor, constant: 16),
 			confirmationBtn.trailingAnchor.constraint(equalTo: containerView.trailingAnchor, constant: -16),
 			confirmationBtn.topAnchor.constraint(equalTo: messageLbl.bottomAnchor, constant: -16),
-			confirmationBtn.bottomAnchor.constraint(equalTo: containerView.bottomAnchor, constant: -16)
+			confirmationBtn.bottomAnchor.constraint(equalTo: containerView.bottomAnchor, constant: 16)
 		])
 	}
 	

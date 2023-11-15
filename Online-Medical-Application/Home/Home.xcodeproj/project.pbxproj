@@ -7,102 +7,98 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4234DC07AE471678E1D07308 /* libPods-Login.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF8A0D99AE3151E9C7BA381 /* libPods-Login.a */; };
-		5C62B13A2B04D5C500BD27A0 /* LoginVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C62B1392B04D5C500BD27A0 /* LoginVM.swift */; };
-		5C62B13C2B04D5D100BD27A0 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C62B13B2B04D5D100BD27A0 /* LoginRouter.swift */; };
-		5C62B1432B04DFE200BD27A0 /* LoginWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C62B1422B04DFE200BD27A0 /* LoginWorker.swift */; };
-		5C62B1472B04F47000BD27A0 /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C62B1462B04F47000BD27A0 /* Data.framework */; };
-		5C62B14B2B04F4BC00BD27A0 /* Networking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C62B14A2B04F4BC00BD27A0 /* Networking.framework */; };
-		5C62B1892B0519D000BD27A0 /* Home.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C62B1882B0519D000BD27A0 /* Home.framework */; };
-		5C67D1D62B03AE1D0097F128 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C67D1D52B03AE1D0097F128 /* LoginVC.swift */; };
-		5C67D1DA2B03B1DC0097F128 /* Component.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C67D1D92B03B1DC0097F128 /* Component.framework */; };
-		5C67D2032B03BF300097F128 /* CommonExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C67D2022B03BF300097F128 /* CommonExtension.framework */; };
-		5C67D2072B03BF630097F128 /* Utility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C67D2062B03BF630097F128 /* Utility.framework */; };
+		5C62B1712B0516DC00BD27A0 /* CommonExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C62B1702B0516DC00BD27A0 /* CommonExtension.framework */; };
+		5C62B1752B0516DF00BD27A0 /* Component.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C62B1742B0516DF00BD27A0 /* Component.framework */; };
+		5C62B1782B0516E500BD27A0 /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C62B1772B0516E500BD27A0 /* Data.framework */; };
+		5C62B17B2B0516EA00BD27A0 /* Networking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C62B17A2B0516EA00BD27A0 /* Networking.framework */; };
+		5C62B17E2B0516F000BD27A0 /* Utility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C62B17D2B0516F000BD27A0 /* Utility.framework */; };
+		5C62B1812B05170500BD27A0 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C62B1802B05170500BD27A0 /* HomeVC.swift */; };
+		5C62B1832B05174500BD27A0 /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C62B1822B05174500BD27A0 /* HomeVM.swift */; };
+		5C62B1852B05174F00BD27A0 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C62B1842B05174F00BD27A0 /* HomeRouter.swift */; };
+		5C62B1872B05175700BD27A0 /* HomeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C62B1862B05175700BD27A0 /* HomeWorker.swift */; };
+		5E35355B25C70227A8FF2763 /* libPods-Home.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 050D65C9491D9CFF1E1FA635 /* libPods-Home.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0EF8A0D99AE3151E9C7BA381 /* libPods-Login.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Login.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C62B1392B04D5C500BD27A0 /* LoginVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVM.swift; sourceTree = "<group>"; };
-		5C62B13B2B04D5D100BD27A0 /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
-		5C62B1422B04DFE200BD27A0 /* LoginWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWorker.swift; sourceTree = "<group>"; };
-		5C62B1462B04F47000BD27A0 /* Data.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Data.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C62B14A2B04F4BC00BD27A0 /* Networking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Networking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C62B1882B0519D000BD27A0 /* Home.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Home.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C67D1C82B03A8A10097F128 /* Login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Login.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C67D1D52B03AE1D0097F128 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginVC.swift; path = Login/LoginVC.swift; sourceTree = "<group>"; };
-		5C67D1D92B03B1DC0097F128 /* Component.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Component.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C67D2022B03BF300097F128 /* CommonExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CommonExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C67D2062B03BF630097F128 /* Utility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Utility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B50B69305ADDEE571D63D3A /* Pods-Login.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Login.release.xcconfig"; path = "Target Support Files/Pods-Login/Pods-Login.release.xcconfig"; sourceTree = "<group>"; };
-		DDFBC176721532FB880B70C3 /* Pods-Login.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Login.debug.xcconfig"; path = "Target Support Files/Pods-Login/Pods-Login.debug.xcconfig"; sourceTree = "<group>"; };
+		050D65C9491D9CFF1E1FA635 /* libPods-Home.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Home.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		376A91D81DB217BA3FBB28AE /* Pods-Home.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Home.release.xcconfig"; path = "Target Support Files/Pods-Home/Pods-Home.release.xcconfig"; sourceTree = "<group>"; };
+		5C62B1662B05167500BD27A0 /* Home.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Home.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C62B1702B0516DC00BD27A0 /* CommonExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CommonExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C62B1742B0516DF00BD27A0 /* Component.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Component.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C62B1772B0516E500BD27A0 /* Data.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Data.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C62B17A2B0516EA00BD27A0 /* Networking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Networking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C62B17D2B0516F000BD27A0 /* Utility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Utility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C62B1802B05170500BD27A0 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		5C62B1822B05174500BD27A0 /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
+		5C62B1842B05174F00BD27A0 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		5C62B1862B05175700BD27A0 /* HomeWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWorker.swift; sourceTree = "<group>"; };
+		5E3255257ACAC40AC0418FEA /* Pods-Home.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Home.debug.xcconfig"; path = "Target Support Files/Pods-Home/Pods-Home.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5C67D1C52B03A8A10097F128 /* Frameworks */ = {
+		5C62B1632B05167500BD27A0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C62B1892B0519D000BD27A0 /* Home.framework in Frameworks */,
-				5C67D1DA2B03B1DC0097F128 /* Component.framework in Frameworks */,
-				5C67D2072B03BF630097F128 /* Utility.framework in Frameworks */,
-				5C62B14B2B04F4BC00BD27A0 /* Networking.framework in Frameworks */,
-				4234DC07AE471678E1D07308 /* libPods-Login.a in Frameworks */,
-				5C62B1472B04F47000BD27A0 /* Data.framework in Frameworks */,
-				5C67D2032B03BF300097F128 /* CommonExtension.framework in Frameworks */,
+				5C62B1782B0516E500BD27A0 /* Data.framework in Frameworks */,
+				5C62B1752B0516DF00BD27A0 /* Component.framework in Frameworks */,
+				5E35355B25C70227A8FF2763 /* libPods-Home.a in Frameworks */,
+				5C62B17E2B0516F000BD27A0 /* Utility.framework in Frameworks */,
+				5C62B17B2B0516EA00BD27A0 /* Networking.framework in Frameworks */,
+				5C62B1712B0516DC00BD27A0 /* CommonExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5C67D1BE2B03A8A10097F128 = {
+		5C62B15C2B05167500BD27A0 = {
 			isa = PBXGroup;
 			children = (
-				5C67D1CA2B03A8A10097F128 /* Login */,
-				5C67D1C92B03A8A10097F128 /* Products */,
-				A1AFB994F339060C44F861E9 /* Pods */,
-				7ACD5013A84F318A46D1B69E /* Frameworks */,
+				5C62B1682B05167500BD27A0 /* Home */,
+				5C62B1672B05167500BD27A0 /* Products */,
+				8E7F5957FA59B0C91575DED0 /* Pods */,
+				5CD097F911258AFBB54CBEC1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		5C67D1C92B03A8A10097F128 /* Products */ = {
+		5C62B1672B05167500BD27A0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5C67D1C82B03A8A10097F128 /* Login.framework */,
+				5C62B1662B05167500BD27A0 /* Home.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5C67D1CA2B03A8A10097F128 /* Login */ = {
+		5C62B1682B05167500BD27A0 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				5C67D1D52B03AE1D0097F128 /* LoginVC.swift */,
-				5C62B1392B04D5C500BD27A0 /* LoginVM.swift */,
-				5C62B13B2B04D5D100BD27A0 /* LoginRouter.swift */,
-				5C62B1422B04DFE200BD27A0 /* LoginWorker.swift */,
+				5C62B1802B05170500BD27A0 /* HomeVC.swift */,
+				5C62B1822B05174500BD27A0 /* HomeVM.swift */,
+				5C62B1842B05174F00BD27A0 /* HomeRouter.swift */,
+				5C62B1862B05175700BD27A0 /* HomeWorker.swift */,
 			);
-			path = Login;
+			path = Home;
 			sourceTree = "<group>";
 		};
-		7ACD5013A84F318A46D1B69E /* Frameworks */ = {
+		5CD097F911258AFBB54CBEC1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5C62B1882B0519D000BD27A0 /* Home.framework */,
-				5C62B14A2B04F4BC00BD27A0 /* Networking.framework */,
-				5C62B1462B04F47000BD27A0 /* Data.framework */,
-				5C67D2062B03BF630097F128 /* Utility.framework */,
-				5C67D2022B03BF300097F128 /* CommonExtension.framework */,
-				5C67D1D92B03B1DC0097F128 /* Component.framework */,
-				0EF8A0D99AE3151E9C7BA381 /* libPods-Login.a */,
+				5C62B17D2B0516F000BD27A0 /* Utility.framework */,
+				5C62B17A2B0516EA00BD27A0 /* Networking.framework */,
+				5C62B1772B0516E500BD27A0 /* Data.framework */,
+				5C62B1742B0516DF00BD27A0 /* Component.framework */,
+				5C62B1702B0516DC00BD27A0 /* CommonExtension.framework */,
+				050D65C9491D9CFF1E1FA635 /* libPods-Home.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A1AFB994F339060C44F861E9 /* Pods */ = {
+		8E7F5957FA59B0C91575DED0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DDFBC176721532FB880B70C3 /* Pods-Login.debug.xcconfig */,
-				8B50B69305ADDEE571D63D3A /* Pods-Login.release.xcconfig */,
+				5E3255257ACAC40AC0418FEA /* Pods-Home.debug.xcconfig */,
+				376A91D81DB217BA3FBB28AE /* Pods-Home.release.xcconfig */,
 			);
 			name = Pods;
 			path = ../Pods;
@@ -111,7 +107,7 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5C67D1C32B03A8A10097F128 /* Headers */ = {
+		5C62B1612B05167500BD27A0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -121,41 +117,41 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5C67D1C72B03A8A10097F128 /* Login */ = {
+		5C62B1652B05167500BD27A0 /* Home */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C67D1CF2B03A8A10097F128 /* Build configuration list for PBXNativeTarget "Login" */;
+			buildConfigurationList = 5C62B16D2B05167500BD27A0 /* Build configuration list for PBXNativeTarget "Home" */;
 			buildPhases = (
-				F948F5108C5C991259F2C64A /* [CP] Check Pods Manifest.lock */,
-				5C67D1C32B03A8A10097F128 /* Headers */,
-				5C67D1C42B03A8A10097F128 /* Sources */,
-				5C67D1C52B03A8A10097F128 /* Frameworks */,
-				5C67D1C62B03A8A10097F128 /* Resources */,
+				781D85551A24BDB2383F3182 /* [CP] Check Pods Manifest.lock */,
+				5C62B1612B05167500BD27A0 /* Headers */,
+				5C62B1622B05167500BD27A0 /* Sources */,
+				5C62B1632B05167500BD27A0 /* Frameworks */,
+				5C62B1642B05167500BD27A0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Login;
-			productName = Login;
-			productReference = 5C67D1C82B03A8A10097F128 /* Login.framework */;
+			name = Home;
+			productName = Home;
+			productReference = 5C62B1662B05167500BD27A0 /* Home.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5C67D1BF2B03A8A10097F128 /* Project object */ = {
+		5C62B15D2B05167500BD27A0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					5C67D1C72B03A8A10097F128 = {
+					5C62B1652B05167500BD27A0 = {
 						CreatedOnToolsVersion = 15.0;
 						LastSwiftMigration = 1500;
 					};
 				};
 			};
-			buildConfigurationList = 5C67D1C22B03A8A10097F128 /* Build configuration list for PBXProject "Login" */;
+			buildConfigurationList = 5C62B1602B05167500BD27A0 /* Build configuration list for PBXProject "Home" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -163,18 +159,18 @@
 				en,
 				Base,
 			);
-			mainGroup = 5C67D1BE2B03A8A10097F128;
-			productRefGroup = 5C67D1C92B03A8A10097F128 /* Products */;
+			mainGroup = 5C62B15C2B05167500BD27A0;
+			productRefGroup = 5C62B1672B05167500BD27A0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5C67D1C72B03A8A10097F128 /* Login */,
+				5C62B1652B05167500BD27A0 /* Home */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5C67D1C62B03A8A10097F128 /* Resources */ = {
+		5C62B1642B05167500BD27A0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -184,7 +180,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		F948F5108C5C991259F2C64A /* [CP] Check Pods Manifest.lock */ = {
+		781D85551A24BDB2383F3182 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -199,7 +195,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Login-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Home-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -209,21 +205,21 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5C67D1C42B03A8A10097F128 /* Sources */ = {
+		5C62B1622B05167500BD27A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C62B13A2B04D5C500BD27A0 /* LoginVM.swift in Sources */,
-				5C67D1D62B03AE1D0097F128 /* LoginVC.swift in Sources */,
-				5C62B13C2B04D5D100BD27A0 /* LoginRouter.swift in Sources */,
-				5C62B1432B04DFE200BD27A0 /* LoginWorker.swift in Sources */,
+				5C62B1812B05170500BD27A0 /* HomeVC.swift in Sources */,
+				5C62B1852B05174F00BD27A0 /* HomeRouter.swift in Sources */,
+				5C62B1872B05175700BD27A0 /* HomeWorker.swift in Sources */,
+				5C62B1832B05174500BD27A0 /* HomeVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		5C67D1CD2B03A8A10097F128 /* Debug */ = {
+		5C62B16B2B05167500BD27A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -289,7 +285,7 @@
 			};
 			name = Debug;
 		};
-		5C67D1CE2B03A8A10097F128 /* Release */ = {
+		5C62B16C2B05167500BD27A0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -348,9 +344,9 @@
 			};
 			name = Release;
 		};
-		5C67D1D02B03A8A10097F128 /* Debug */ = {
+		5C62B16E2B05167500BD27A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DDFBC176721532FB880B70C3 /* Pods-Login.debug.xcconfig */;
+			baseConfigurationReference = 5E3255257ACAC40AC0418FEA /* Pods-Home.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -372,7 +368,7 @@
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nur.Login;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nur.Home;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -382,9 +378,9 @@
 			};
 			name = Debug;
 		};
-		5C67D1D12B03A8A10097F128 /* Release */ = {
+		5C62B16F2B05167500BD27A0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B50B69305ADDEE571D63D3A /* Pods-Login.release.xcconfig */;
+			baseConfigurationReference = 376A91D81DB217BA3FBB28AE /* Pods-Home.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -406,7 +402,7 @@
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nur.Login;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nur.Home;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -418,25 +414,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5C67D1C22B03A8A10097F128 /* Build configuration list for PBXProject "Login" */ = {
+		5C62B1602B05167500BD27A0 /* Build configuration list for PBXProject "Home" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5C67D1CD2B03A8A10097F128 /* Debug */,
-				5C67D1CE2B03A8A10097F128 /* Release */,
+				5C62B16B2B05167500BD27A0 /* Debug */,
+				5C62B16C2B05167500BD27A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C67D1CF2B03A8A10097F128 /* Build configuration list for PBXNativeTarget "Login" */ = {
+		5C62B16D2B05167500BD27A0 /* Build configuration list for PBXNativeTarget "Home" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5C67D1D02B03A8A10097F128 /* Debug */,
-				5C67D1D12B03A8A10097F128 /* Release */,
+				5C62B16E2B05167500BD27A0 /* Debug */,
+				5C62B16F2B05167500BD27A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5C67D1BF2B03A8A10097F128 /* Project object */;
+	rootObject = 5C62B15D2B05167500BD27A0 /* Project object */;
 }
