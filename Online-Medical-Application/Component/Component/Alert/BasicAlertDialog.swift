@@ -35,6 +35,8 @@ public class BasicAlertDialog: UIView {
 		let btn = UIButton()
 		btn.translatesAutoresizingMaskIntoConstraints = false
 		btn.setTitle("Ok", for: .normal)
+		btn.setTitleColor(.white, for: .normal)
+		btn.backgroundColor = Color.primaryBlueColor.instance()
 		return btn
 	}()
 	
@@ -53,6 +55,7 @@ public class BasicAlertDialog: UIView {
 		backgroundView.addSubview(containerView)
 		containerView.addSubview(messageLbl)
 		containerView.addSubview(confirmationBtn)
+		confirmationBtn.addTarget(self, action: #selector(didTappedBtn), for: .touchUpInside)
 		setupConstraints()
 	}
 	
@@ -75,9 +78,13 @@ public class BasicAlertDialog: UIView {
 
 			confirmationBtn.leadingAnchor.constraint(equalTo: containerView.leadingAnchor, constant: 16),
 			confirmationBtn.trailingAnchor.constraint(equalTo: containerView.trailingAnchor, constant: -16),
-			confirmationBtn.topAnchor.constraint(equalTo: messageLbl.bottomAnchor, constant: -16),
+			confirmationBtn.topAnchor.constraint(equalTo: messageLbl.bottomAnchor, constant: 16),
 			confirmationBtn.bottomAnchor.constraint(equalTo: containerView.bottomAnchor, constant: 16)
 		])
+	}
+	
+	@objc private func didTappedBtn() {
+		self.isHidden = true
 	}
 	
 	public func showAlertDialog(message: String) {
